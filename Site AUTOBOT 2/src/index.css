@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --color-brand-cyan: #06e0f9;
+  --color-brand-dark: #0f1218;
+  --color-brand-gray: #1a1d24;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-dark text-white font-sans antialiased;
+    margin: 0;
+    min-height: 100vh;
+  }
+}
